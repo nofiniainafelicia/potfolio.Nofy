@@ -1,0 +1,126 @@
+h1{
+  color: rgb(248, 252, 206);
+  margin-top: 10px;
+  text-align: center;
+font-size: 4rem;
+}
+
+
+.niaina{
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+body{
+  background: url(techno.jpg) center center/cover;
+  min-height: 100vh;
+  text-align: center;
+}
+.gauche-title{
+  text-align: center;
+  color: rgb(252, 238, 177);
+}
+.one{
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+.compte{
+background: #a3d5f7;
+border-radius: 12px;
+padding: 3%;
+display: flex;
+justify-items: center;
+position: sticky;
+}
+.compte:hover{
+  background: #7c8cac;
+}
+img{
+  cursor: pointer;
+}
+ 
+
+.office{
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+}
+.programmation{
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+}
+.back{
+  width: 50px;
+  height: 50px; 
+  margin-left: 20px;
+}
+
+.texte{
+  color: rgb(168, 168, 127);
+}
+
+.list{
+  text-align: left;
+  color: #a0a098;
+  display: flex;
+  justify-items: center;
+  position: sticky;
+  margin-left: 20px; 
+}
+.icone{
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+}
+.fin{
+  background: rgb(137, 196, 252);
+  border-radius: 50px;
+}
+.fin:hover{
+  background: #7c8cac;
+}  
+.langues{
+  text-align: left;
+   color: #161615;
+   display: flex;
+   justify-items: center;
+   position: sticky;
+   margin-left: 20px; 
+ 
+ }
+.centre{
+  background: rgb(137, 196, 252);
+  border-radius: 50px;
+  text-align: left;
+  color: #161615;
+  display: flex;
+  justify-items: center;
+  position: sticky;
+  margin-left: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.centre:hover{
+  background: #7c8cac;
+}
+.titre{
+  color: bisque;
+}
+
+
+
+
+
+
+
+
+
+
